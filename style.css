@@ -58,3 +58,33 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.ticker-wrap {
+    background-color: #004225;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.ticker {
+    display: flex;
+    animation: ticker 30s infinite linear;
+    height: 50px;
+    line-height: 50px;
+}
+
+.ticker__item {
+    flex-grow: 1;
+    padding: 0 2em;
+    color: #f5f5dc;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
