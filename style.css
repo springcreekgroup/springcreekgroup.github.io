@@ -1,0 +1,60 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #f5f5dc;
+    color: #004225;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #004225;
+    color: #f5f5dc;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #f5f5dc;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2, section h3 {
+    color: #004225;
+}
+
+section p {
+    color: #004225;
+}
+
+article {
+    background-color: #dcdcdc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #004225;
+    color: #f5f5dc;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
